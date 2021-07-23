@@ -16,6 +16,7 @@ public class MYSQL_DAO implements BankDaoInterface{
 	Connection conn = null;
 	Statement stmt;
 	
+	
 	public void connect() {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

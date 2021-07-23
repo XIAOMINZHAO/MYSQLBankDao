@@ -6,7 +6,6 @@ public class BankEntrence {
 
 	public static void main(String[] args) {
 
-//		BankDao bankDao = new BankDao();
 		
 		MYSQL_DAO mysql = new MYSQL_DAO();
 		mysql.connect();

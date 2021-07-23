@@ -3,7 +3,6 @@ package BankApplication;
 import java.util.Random;
 
 public class BankAccount {
-
 	long accountNumber;
 	float balance ;
 	String customerName ;
